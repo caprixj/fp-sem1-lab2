@@ -1,0 +1,15 @@
+cabal-version:      1.12
+name:               gauss-parallel
+version:            0.1.0.0
+synopsis:           Parallel Gaussian elimination in Haskell
+license:            BSD3
+license-file:       LICENSE
+author:             Anton
+build-type:         Simple
+
+executable gauss-parallel
+    main-is: GaussParallel.hs
+    build-depends: base >= 4.7 && < 5,
+                   parallel
+    default-language: Haskell2010
+    ghc-options: -threaded -O2
