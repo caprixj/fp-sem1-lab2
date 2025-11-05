@@ -1,0 +1,55 @@
+# Haskell / Cabal build artifacts
+/dist/
+/dist-*/
+/dist-newstyle/
+/cabal-dev/
+/.cabal-sandbox/
+/cabal.sandbox.config
+/cabal.project.local
+/cabal.project.local~
+/cabal.project.freeze
+/setup-config
+/.hpc/
+/.hsenv/
+/.ghc.environment.*
+
+# Stack (in case the repo uses it somewhere)
+/.stack-work/
+/stack.yaml.lock
+
+# GHC build outputs
+*.o
+*.hi
+*.hi-boot
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+*.dump-*
+*.hc
+*.s
+*.hie
+
+# HIE/HLS and tooling
+/.hie/
+/.hls/
+/.hie-bios/
+/.hoogle/
+
+# Editor / OS files
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Tags
+TAGS
+.tags
+.tags*
+

@@ -20,6 +20,16 @@
   (major1) == 4 && (major2) <  18 || \
   (major1) == 4 && (major2) == 18 && (minor) <= 3)
 #endif /* MIN_VERSION_base */
+/* package clock-0.8.4 */
+#ifndef VERSION_clock
+#define VERSION_clock "0.8.4"
+#endif /* VERSION_clock */
+#ifndef MIN_VERSION_clock
+#define MIN_VERSION_clock(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  8 || \
+  (major1) == 0 && (major2) == 8 && (minor) <= 4)
+#endif /* MIN_VERSION_clock */
 /* package gauss-parallel-0.1.0.0 */
 #ifndef VERSION_gauss_parallel
 #define VERSION_gauss_parallel "0.1.0.0"
@@ -30,15 +40,15 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_gauss_parallel */
-/* package hspec-2.11.12 */
+/* package hspec-2.11.14 */
 #ifndef VERSION_hspec
-#define VERSION_hspec "2.11.12"
+#define VERSION_hspec "2.11.14"
 #endif /* VERSION_hspec */
 #ifndef MIN_VERSION_hspec
 #define MIN_VERSION_hspec(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  11 || \
-  (major1) == 2 && (major2) == 11 && (minor) <= 12)
+  (major1) == 2 && (major2) == 11 && (minor) <= 14)
 #endif /* MIN_VERSION_hspec */
 
 /* tool gcc-14.0.6 */
